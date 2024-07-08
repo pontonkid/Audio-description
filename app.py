@@ -35,6 +35,17 @@ def caption_my_image(pil_image):
     return generate_audio(semantics)
 
 
+demo = gr.Interface(
+    fn=caption_my_image,
+    inputs=[gr.Image(label="Select Image", type="pil")],
+    outputs=[gr.Audio(label="Generated Audio")],
+    title="Project 8: Audio Caption Image",
+    description="This application provides audio captions for images."
+)
+
+demo.launch()
+
+
 
 
 
