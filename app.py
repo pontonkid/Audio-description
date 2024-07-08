@@ -27,6 +27,14 @@ def generate_audio(text):
     return "generated_audio.wav"
 
 
+def caption_my_image(pil_image):
+    # Use BLIP to generate a textual description (semantics) of the input image
+    semantics = caption_image(images=pil_image)[0]["generated_text"]
+    
+    # Generate audio from the textual description using the generate_audio function
+    return generate_audio(semantics)
+
+
 
 
 
