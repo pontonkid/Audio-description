@@ -12,6 +12,8 @@ Framework: Gradio
 
 VLM: Blip
 
+TTS: Kakao
+
 
 # Limits
 The quality of the description depends on the image clarity and content.
