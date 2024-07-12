@@ -23,9 +23,4 @@ Audio generation time may vary depending on the input image size and content.
 
 Demo 
 
-<script
-	type="module"
-	src="https://gradio.s3-us-west-2.amazonaws.com/4.37.2/gradio.js"
-></script>
-
-<gradio-app src="https://pontonkid-image-audio-description.hf.space"></gradio-app>
+https://pontonkid-image-audio-description.hf.space
