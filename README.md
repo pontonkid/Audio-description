@@ -9,6 +9,7 @@ This application is designed to assist visually impaired users by providing audi
 
 # Technologies/Tools Used
 Framework: Gradio
+VLM: Blip
 
 
 # Limits
