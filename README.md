@@ -8,6 +8,7 @@ This app generates audio descriptions for images using Vision Language Models (V
 This application is designed to assist visually impaired users by providing audio descriptions of images. It can also be used in various scenarios such as creating audio captions for educational materials, enhancing accessibility for digital content, and more.
 
 # Technologies/Tools Used
+Framework: Gradio
 
 
 # Limits
