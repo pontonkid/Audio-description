@@ -1,3 +1,3 @@
 # Audio-description
 
-this is 
+This app generates audio descriptions for images using Vision Language Models (VLM) and Text-to-Speech (TTS) technology.
